@@ -1,6 +1,8 @@
 body{
     font-family:poppins !important;
+
 }
+
 
 .usual{
     display:flex;
@@ -24,13 +26,13 @@ body{
     font-weight: 700;
     color:white;
 }
-#hero_discover{
+.hero_discover{
     color:white;
     border:solid 4px #cee000;
-    padding: 0.6rem;
+    padding:0.3rem 0.8rem;
     width:12.53%;
 }
-#hero_discover:hover {
+.hero_discover:hover {
     background-color: #cee000;
 }
 
@@ -52,6 +54,7 @@ body{
 
     .campus{
         padding-right:1rem !important;
+        font-size: 28px !important;
     }
 }
 
@@ -81,12 +84,19 @@ body{
     }
     #tail_logo_icons_modified{
         display:block !important;
+
+    }
+    #tail_logo_icons_{
+        display:none !important;
     }
     .tail_para_{
         padding-top:2rem !important;
     }
     #tail_para_contact_list{
         padding-left:0rem !important;
+    }
+    #connect{
+        padding:1rem !important;
     }
 }
 
@@ -101,7 +111,7 @@ body{
     #gallery_nil_image_2,#gallery_nil_image_3{
         display:none !important;
     }
-    .hero_text{
+    .hero_text{ 
         font-size:45px;
     }
 }
@@ -113,6 +123,19 @@ body{
     #nav_logo{
         margin:auto;
         width:170px !important;
+    }
+    #gallery_main_text{
+        padding-left:1rem !important;
+    }
+    #hamburger_icon{
+        display:block !important;
+    }
+
+    #nav_bar{
+        height:75px !important;
+    }
+    #hamburger_icon{
+        display:block !important;
     }
 }
 
